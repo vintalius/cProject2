@@ -27,9 +27,10 @@
 int main(int argc, char **argv)
 {
 	printf("hello Valery test 1\n");
-	printf("hello test 1")
-	printf("hello test 2")
-	printf("hello test 3")
+	printf("hello test 1");
+	printf("hello test 2");
+	printf("hello test 3");
+	printf("hello test 4");
 	
 	return 0;
 }
