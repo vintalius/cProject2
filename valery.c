@@ -37,10 +37,10 @@ int main(int argc, char **argv)
       printf("\nError!\n");   
       exit(102);             
    }
-   fprintf(fptr," LINE 1\n");
-   fprintf(fptr," LINE 2\n");
-   fprintf(fptr," LINE 3\n");
-   fprintf(fptr," LINE 4\n");
+   fprintf(fptr," LINE v1\n");
+   fprintf(fptr," LINE v2\n");
+   fprintf(fptr," LINEv 3\n");
+   fprintf(fptr," LINE v4\n");
    fclose(fptr);
 
 	
