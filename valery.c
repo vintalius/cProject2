@@ -31,6 +31,8 @@ int main(int argc, char **argv)
 	printf("hello test 2");
 	printf("hello test 3");
 	printf("hello test 4");
+	int a;
+	a=2/0;
 	
 	return 0;
 }
