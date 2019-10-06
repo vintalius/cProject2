@@ -27,12 +27,20 @@
 int main(int argc, char **argv)
 {
 	printf("hello Valery test 1\n");
-	printf("hello test 1");
-	printf("hello test 2");
-	printf("hello test 3");
-	printf("hello test 4");
-	int a;
-	a=2/0;
+   FILE *fptr;
+   // use appropriate location if you are using MacOS or Linux
+   fptr = fopen("TEST.txt","a");
+   if(fptr == NULL)
+   {
+      printf("\nError!\n");   
+      exit(102);             
+   }
+   fprintf(fptr," LINE 1\n");
+   fprintf(fptr," LINE 2\n");
+   fprintf(fptr," LINE 3\n");
+   fprintf(fptr," LINE 4\n");
+   fclose(fptr);
+
 	
 	return 0;
 }
