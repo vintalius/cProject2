@@ -23,19 +23,19 @@
 
 
 #include <stdio.h>
-#include <stdio.h>
-#include <stdlib.h>
+//#include <stdio.h>
+//#include <stdlib.h>
 
 int main(int argc, char **argv)
 {
-	printf("hello Valery test 1\n");
+	//printf("hello Valery test 1\n");
    FILE *fptr;
    // use appropriate location if you are using MacOS or Linux
    fptr = fopen("TEST.txt","a");
    if(fptr == NULL)
    {
       printf("\nError!\n");   
-      exit(102);             
+      return 102;             
    }
    fprintf(fptr," LINE v1\n");
    fprintf(fptr," LINE v2\n");
